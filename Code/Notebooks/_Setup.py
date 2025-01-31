@@ -11,7 +11,7 @@ from pathlib import Path
 script_dir = Path(__file__).resolve().parent
 
 # Get the project root (assuming Notebooks is at the same level as data)
-project_root = script_dir.parent
+project_root = script_dir.parent.parent
 
 # Construct the path to data.csv
 sector_data_csv_path = project_root / "Data" / "Border_Sector_Data.csv"
