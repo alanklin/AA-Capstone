@@ -15,6 +15,7 @@ project_root = script_dir.parent.parent
 
 # Construct the path to data.csv
 sector_data_csv_path = project_root / "Data" / "sector_encounters_fy_2020_2025.csv"
+sector_data_csv_path_cleaned = project_root / "Data" / "sector_encounters_cleaned.csv"
 state_data_csv_path = project_root / "Data" / "Border_State_Data.csv"
 
 
