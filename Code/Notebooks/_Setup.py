@@ -17,6 +17,9 @@ project_root = script_dir.parent.parent
 sector_data_csv_path = project_root / "Data" / "sector_encounters_fy_2020_2025.csv"
 sector_data_csv_path_cleaned = project_root / "Data" / "sector_encounters_cleaned.csv"
 state_data_csv_path = project_root / "Data" / "Border_State_Data.csv"
+state_data_csv_path_cleaned = project_root / "Data" / "state_encounters_cleaned.csv"
+state_data_train = project_root / "Data" / "state_train.csv"
+state_data_test = project_root / "Data" / "state_test.csv"
 
 
 # Data manipulation
