@@ -33,3 +33,6 @@ import seaborn as sns
 # For mapping use:
 import geopandas as gpd
 import geopandas.tools
+
+import statsmodels.api as sm
+from statsmodels.tsa.seasonal import seasonal_decompose
