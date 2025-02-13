@@ -42,6 +42,8 @@ state_data_csv_path_cleaned = project_root / "Data" / "state_encounters_cleaned.
 state_data_train = project_root / "Data" / "state_train.csv"
 state_data_test = project_root / "Data" / "state_test.csv"
 
+sector_train_dropped_csv_path = project_root / "Data" / "sector_train_dropped.csv"
+
 # Data manipulation
 import pandas as pd
 import matplotlib.pyplot as plt
@@ -57,3 +59,6 @@ import geopandas.tools
 # Statistical methods
 from statsmodels.tsa.seasonal import seasonal_decompose
 import statsmodels.api as sm
+
+# Feature Engineering
+from sklearn.preprocessing import OneHotEncoder
