@@ -64,3 +64,6 @@ import statsmodels.api as sm
 
 # Feature Engineering
 from sklearn.preprocessing import OneHotEncoder
+
+# Scaling
+from sklearn.preprocessing import MinMaxScaler
