@@ -8,6 +8,7 @@ import subprocess
 import sys
 import os
 from pathlib import Path
+import pickle
 
 # Function to install dependencies
 def install_requirements(requirements_file="requirements.txt"):
@@ -35,16 +36,23 @@ project_root = script_dir.parent.parent
 
 # Construct the path to data.csv
 sector_data_csv_path = project_root / "Data" / "sector_encounters_fy_2020_2025.csv"
+
 sector_data_csv_path_train = project_root / "Data" / "sector_encounters_train.csv"
 sector_data_csv_path_test = project_root / "Data" / "sector_encounters_test.csv"
+
+sector_data_csv_path_train_pivoted = project_root / "Data" / "sector_encounters_train_pivot.csv"
+sector_data_csv_path_test_pivoted = project_root / "Data" / "sector_encounters_test_pivot.csv"
+
+# TODO : Fix naming convention on these, they may be useless
+# sector_train_input_ready = project_root / "Data" / "sector_train_input_ready.csv"
+# sector_train_dropped_csv_path = project_root / "Data" / "sector_train_dropped.csv"
+
 state_data_csv_path = project_root / "Data" / "Border_State_Data.csv"
 state_data_csv_path_cleaned = project_root / "Data" / "state_encounters_cleaned.csv"
 state_data_train = project_root / "Data" / "state_train.csv"
 state_data_test = project_root / "Data" / "state_test.csv"
 
-sector_train_input_ready = project_root / "Data" / "sector_train_input_ready.csv"
-
-sector_train_dropped_csv_path = project_root / "Data" / "sector_train_dropped.csv"
+scalers_file = project_root / "Data" / "scalers.pickle"
 
 # Data manipulation
 import pandas as pd
@@ -67,3 +75,9 @@ from sklearn.preprocessing import OneHotEncoder
 
 # Scaling
 from sklearn.preprocessing import MinMaxScaler
+
+# Transformer Model
+
+import tensorflow as tf
+from tensorflow import keras
+from tensorflow.keras import layers
