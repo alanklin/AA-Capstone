@@ -1,0 +1,432 @@
+Configuration 1:
+  input_size: 12
+  learning_rate: 0.001
+  dropout_1: 0.3
+  dropout_2: 0.3
+  dropout_3: 0.3
+  units_1: 24
+  units_2: 512
+  units_3: 256
+  units_4: 128
+  units_5: 12
+  batch_size: 12
+  epochs: 50
+
+========================================
+
+Configuration 2:
+  input_size: 12
+  learning_rate: 0.001
+  dropout_1: 0.4
+  dropout_2: 0.4
+  dropout_3: 0.4
+  units_1: 24
+  units_2: 512
+  units_3: 256
+  units_4: 128
+  units_5: 12
+  batch_size: 12
+  epochs: 50
+
+========================================
+
+Configuration 3:
+  input_size: 12
+  learning_rate: 0.001
+  dropout_1: 0.5
+  dropout_2: 0.5
+  dropout_3: 0.5
+  units_1: 24
+  units_2: 512
+  units_3: 256
+  units_4: 128
+  units_5: 12
+  batch_size: 12
+  epochs: 50
+
+========================================
+
+Configuration 4:
+  input_size: 12
+  learning_rate: 0.0005
+  dropout_1: 0.3
+  dropout_2: 0.3
+  dropout_3: 0.3
+  units_1: 24
+  units_2: 512
+  units_3: 256
+  units_4: 128
+  units_5: 12
+  batch_size: 12
+  epochs: 50
+
+========================================
+
+Configuration 5:
+  input_size: 12
+  learning_rate: 0.0005
+  dropout_1: 0.4
+  dropout_2: 0.4
+  dropout_3: 0.4
+  units_1: 24
+  units_2: 512
+  units_3: 256
+  units_4: 128
+  units_5: 12
+  batch_size: 12
+  epochs: 50
+
+========================================
+
+Configuration 6:
+  input_size: 12
+  learning_rate: 0.0005
+  dropout_1: 0.5
+  dropout_2: 0.5
+  dropout_3: 0.5
+  units_1: 24
+  units_2: 512
+  units_3: 256
+  units_4: 128
+  units_5: 12
+  batch_size: 12
+  epochs: 50
+
+========================================
+
+Configuration 7:
+  input_size: 12
+  learning_rate: 0.0001
+  dropout_1: 0.3
+  dropout_2: 0.3
+  dropout_3: 0.3
+  units_1: 24
+  units_2: 512
+  units_3: 256
+  units_4: 128
+  units_5: 12
+  batch_size: 12
+  epochs: 50
+
+========================================
+
+Configuration 8:
+  input_size: 12
+  learning_rate: 0.0001
+  dropout_1: 0.4
+  dropout_2: 0.4
+  dropout_3: 0.4
+  units_1: 24
+  units_2: 512
+  units_3: 256
+  units_4: 128
+  units_5: 12
+  batch_size: 12
+  epochs: 50
+
+========================================
+
+Configuration 9:
+  input_size: 12
+  learning_rate: 0.0001
+  dropout_1: 0.5
+  dropout_2: 0.5
+  dropout_3: 0.5
+  units_1: 24
+  units_2: 512
+  units_3: 256
+  units_4: 128
+  units_5: 12
+  batch_size: 12
+  epochs: 50
+
+========================================
+
+Configuration 10:
+  input_size: 18
+  learning_rate: 0.001
+  dropout_1: 0.3
+  dropout_2: 0.3
+  dropout_3: 0.3
+  units_1: 24
+  units_2: 512
+  units_3: 256
+  units_4: 128
+  units_5: 12
+  batch_size: 12
+  epochs: 50
+
+========================================
+
+Configuration 11:
+  input_size: 18
+  learning_rate: 0.001
+  dropout_1: 0.4
+  dropout_2: 0.4
+  dropout_3: 0.4
+  units_1: 24
+  units_2: 512
+  units_3: 256
+  units_4: 128
+  units_5: 12
+  batch_size: 12
+  epochs: 50
+
+========================================
+
+Configuration 12:
+  input_size: 18
+  learning_rate: 0.001
+  dropout_1: 0.5
+  dropout_2: 0.5
+  dropout_3: 0.5
+  units_1: 24
+  units_2: 512
+  units_3: 256
+  units_4: 128
+  units_5: 12
+  batch_size: 12
+  epochs: 50
+
+========================================
+
+Configuration 13:
+  input_size: 18
+  learning_rate: 0.0005
+  dropout_1: 0.3
+  dropout_2: 0.3
+  dropout_3: 0.3
+  units_1: 24
+  units_2: 512
+  units_3: 256
+  units_4: 128
+  units_5: 12
+  batch_size: 12
+  epochs: 50
+
+========================================
+
+Configuration 14:
+  input_size: 18
+  learning_rate: 0.0005
+  dropout_1: 0.4
+  dropout_2: 0.4
+  dropout_3: 0.4
+  units_1: 24
+  units_2: 512
+  units_3: 256
+  units_4: 128
+  units_5: 12
+  batch_size: 12
+  epochs: 50
+
+========================================
+
+Configuration 15:
+  input_size: 18
+  learning_rate: 0.0005
+  dropout_1: 0.5
+  dropout_2: 0.5
+  dropout_3: 0.5
+  units_1: 24
+  units_2: 512
+  units_3: 256
+  units_4: 128
+  units_5: 12
+  batch_size: 12
+  epochs: 50
+
+========================================
+
+Configuration 16:
+  input_size: 18
+  learning_rate: 0.0001
+  dropout_1: 0.3
+  dropout_2: 0.3
+  dropout_3: 0.3
+  units_1: 24
+  units_2: 512
+  units_3: 256
+  units_4: 128
+  units_5: 12
+  batch_size: 12
+  epochs: 50
+
+========================================
+
+Configuration 17:
+  input_size: 18
+  learning_rate: 0.0001
+  dropout_1: 0.4
+  dropout_2: 0.4
+  dropout_3: 0.4
+  units_1: 24
+  units_2: 512
+  units_3: 256
+  units_4: 128
+  units_5: 12
+  batch_size: 12
+  epochs: 50
+
+========================================
+
+Configuration 18:
+  input_size: 18
+  learning_rate: 0.0001
+  dropout_1: 0.5
+  dropout_2: 0.5
+  dropout_3: 0.5
+  units_1: 24
+  units_2: 512
+  units_3: 256
+  units_4: 128
+  units_5: 12
+  batch_size: 12
+  epochs: 50
+
+========================================
+
+Configuration 19:
+  input_size: 24
+  learning_rate: 0.001
+  dropout_1: 0.3
+  dropout_2: 0.3
+  dropout_3: 0.3
+  units_1: 24
+  units_2: 512
+  units_3: 256
+  units_4: 128
+  units_5: 12
+  batch_size: 12
+  epochs: 50
+
+========================================
+
+Configuration 20:
+  input_size: 24
+  learning_rate: 0.001
+  dropout_1: 0.4
+  dropout_2: 0.4
+  dropout_3: 0.4
+  units_1: 24
+  units_2: 512
+  units_3: 256
+  units_4: 128
+  units_5: 12
+  batch_size: 12
+  epochs: 50
+
+========================================
+
+Configuration 21:
+  input_size: 24
+  learning_rate: 0.001
+  dropout_1: 0.5
+  dropout_2: 0.5
+  dropout_3: 0.5
+  units_1: 24
+  units_2: 512
+  units_3: 256
+  units_4: 128
+  units_5: 12
+  batch_size: 12
+  epochs: 50
+
+========================================
+
+Configuration 22:
+  input_size: 24
+  learning_rate: 0.0005
+  dropout_1: 0.3
+  dropout_2: 0.3
+  dropout_3: 0.3
+  units_1: 24
+  units_2: 512
+  units_3: 256
+  units_4: 128
+  units_5: 12
+  batch_size: 12
+  epochs: 50
+
+========================================
+
+Configuration 23:
+  input_size: 24
+  learning_rate: 0.0005
+  dropout_1: 0.4
+  dropout_2: 0.4
+  dropout_3: 0.4
+  units_1: 24
+  units_2: 512
+  units_3: 256
+  units_4: 128
+  units_5: 12
+  batch_size: 12
+  epochs: 50
+
+========================================
+
+Configuration 24:
+  input_size: 24
+  learning_rate: 0.0005
+  dropout_1: 0.5
+  dropout_2: 0.5
+  dropout_3: 0.5
+  units_1: 24
+  units_2: 512
+  units_3: 256
+  units_4: 128
+  units_5: 12
+  batch_size: 12
+  epochs: 50
+
+========================================
+
+Configuration 25:
+  input_size: 24
+  learning_rate: 0.0001
+  dropout_1: 0.3
+  dropout_2: 0.3
+  dropout_3: 0.3
+  units_1: 24
+  units_2: 512
+  units_3: 256
+  units_4: 128
+  units_5: 12
+  batch_size: 12
+  epochs: 50
+
+========================================
+
+Configuration 26:
+  input_size: 24
+  learning_rate: 0.0001
+  dropout_1: 0.4
+  dropout_2: 0.4
+  dropout_3: 0.4
+  units_1: 24
+  units_2: 512
+  units_3: 256
+  units_4: 128
+  units_5: 12
+  batch_size: 12
+  epochs: 50
+
+========================================
+
+Configuration 27:
+  input_size: 24
+  learning_rate: 0.0001
+  dropout_1: 0.5
+  dropout_2: 0.5
+  dropout_3: 0.5
+  units_1: 24
+  units_2: 512
+  units_3: 256
+  units_4: 128
+  units_5: 12
+  batch_size: 12
+  epochs: 50
+
+========================================
+
