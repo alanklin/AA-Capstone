@@ -8,8 +8,8 @@ Configuration 1:
   units_2: 512
   units_3: 256
   units_4: 128
-  units_5: 12
-  batch_size: 12
+  units_5: 6
+  batch_size: 64
   epochs: 50
 
 ========================================
@@ -24,8 +24,8 @@ Configuration 2:
   units_2: 512
   units_3: 256
   units_4: 128
-  units_5: 12
-  batch_size: 12
+  units_5: 6
+  batch_size: 64
   epochs: 50
 
 ========================================
@@ -40,8 +40,8 @@ Configuration 3:
   units_2: 512
   units_3: 256
   units_4: 128
-  units_5: 12
-  batch_size: 12
+  units_5: 6
+  batch_size: 64
   epochs: 50
 
 ========================================
@@ -56,8 +56,8 @@ Configuration 4:
   units_2: 512
   units_3: 256
   units_4: 128
-  units_5: 12
-  batch_size: 12
+  units_5: 6
+  batch_size: 64
   epochs: 50
 
 ========================================
@@ -72,8 +72,8 @@ Configuration 5:
   units_2: 512
   units_3: 256
   units_4: 128
-  units_5: 12
-  batch_size: 12
+  units_5: 6
+  batch_size: 64
   epochs: 50
 
 ========================================
@@ -88,8 +88,8 @@ Configuration 6:
   units_2: 512
   units_3: 256
   units_4: 128
-  units_5: 12
-  batch_size: 12
+  units_5: 6
+  batch_size: 64
   epochs: 50
 
 ========================================
@@ -104,8 +104,8 @@ Configuration 7:
   units_2: 512
   units_3: 256
   units_4: 128
-  units_5: 12
-  batch_size: 12
+  units_5: 6
+  batch_size: 64
   epochs: 50
 
 ========================================
@@ -120,8 +120,8 @@ Configuration 8:
   units_2: 512
   units_3: 256
   units_4: 128
-  units_5: 12
-  batch_size: 12
+  units_5: 6
+  batch_size: 64
   epochs: 50
 
 ========================================
@@ -136,8 +136,8 @@ Configuration 9:
   units_2: 512
   units_3: 256
   units_4: 128
-  units_5: 12
-  batch_size: 12
+  units_5: 6
+  batch_size: 64
   epochs: 50
 
 ========================================
@@ -152,8 +152,8 @@ Configuration 10:
   units_2: 512
   units_3: 256
   units_4: 128
-  units_5: 12
-  batch_size: 12
+  units_5: 6
+  batch_size: 64
   epochs: 50
 
 ========================================
@@ -168,8 +168,8 @@ Configuration 11:
   units_2: 512
   units_3: 256
   units_4: 128
-  units_5: 12
-  batch_size: 12
+  units_5: 6
+  batch_size: 64
   epochs: 50
 
 ========================================
@@ -184,8 +184,8 @@ Configuration 12:
   units_2: 512
   units_3: 256
   units_4: 128
-  units_5: 12
-  batch_size: 12
+  units_5: 6
+  batch_size: 64
   epochs: 50
 
 ========================================
@@ -200,8 +200,8 @@ Configuration 13:
   units_2: 512
   units_3: 256
   units_4: 128
-  units_5: 12
-  batch_size: 12
+  units_5: 6
+  batch_size: 64
   epochs: 50
 
 ========================================
@@ -216,8 +216,8 @@ Configuration 14:
   units_2: 512
   units_3: 256
   units_4: 128
-  units_5: 12
-  batch_size: 12
+  units_5: 6
+  batch_size: 64
   epochs: 50
 
 ========================================
@@ -232,8 +232,8 @@ Configuration 15:
   units_2: 512
   units_3: 256
   units_4: 128
-  units_5: 12
-  batch_size: 12
+  units_5: 6
+  batch_size: 64
   epochs: 50
 
 ========================================
@@ -248,8 +248,8 @@ Configuration 16:
   units_2: 512
   units_3: 256
   units_4: 128
-  units_5: 12
-  batch_size: 12
+  units_5: 6
+  batch_size: 64
   epochs: 50
 
 ========================================
@@ -264,8 +264,8 @@ Configuration 17:
   units_2: 512
   units_3: 256
   units_4: 128
-  units_5: 12
-  batch_size: 12
+  units_5: 6
+  batch_size: 64
   epochs: 50
 
 ========================================
@@ -280,8 +280,8 @@ Configuration 18:
   units_2: 512
   units_3: 256
   units_4: 128
-  units_5: 12
-  batch_size: 12
+  units_5: 6
+  batch_size: 64
   epochs: 50
 
 ========================================
@@ -296,8 +296,8 @@ Configuration 19:
   units_2: 512
   units_3: 256
   units_4: 128
-  units_5: 12
-  batch_size: 12
+  units_5: 6
+  batch_size: 64
   epochs: 50
 
 ========================================
@@ -312,8 +312,8 @@ Configuration 20:
   units_2: 512
   units_3: 256
   units_4: 128
-  units_5: 12
-  batch_size: 12
+  units_5: 6
+  batch_size: 64
   epochs: 50
 
 ========================================
@@ -328,8 +328,8 @@ Configuration 21:
   units_2: 512
   units_3: 256
   units_4: 128
-  units_5: 12
-  batch_size: 12
+  units_5: 6
+  batch_size: 64
   epochs: 50
 
 ========================================
@@ -344,8 +344,8 @@ Configuration 22:
   units_2: 512
   units_3: 256
   units_4: 128
-  units_5: 12
-  batch_size: 12
+  units_5: 6
+  batch_size: 64
   epochs: 50
 
 ========================================
@@ -360,8 +360,8 @@ Configuration 23:
   units_2: 512
   units_3: 256
   units_4: 128
-  units_5: 12
-  batch_size: 12
+  units_5: 6
+  batch_size: 64
   epochs: 50
 
 ========================================
@@ -376,8 +376,8 @@ Configuration 24:
   units_2: 512
   units_3: 256
   units_4: 128
-  units_5: 12
-  batch_size: 12
+  units_5: 6
+  batch_size: 64
   epochs: 50
 
 ========================================
@@ -392,8 +392,8 @@ Configuration 25:
   units_2: 512
   units_3: 256
   units_4: 128
-  units_5: 12
-  batch_size: 12
+  units_5: 6
+  batch_size: 64
   epochs: 50
 
 ========================================
@@ -408,8 +408,8 @@ Configuration 26:
   units_2: 512
   units_3: 256
   units_4: 128
-  units_5: 12
-  batch_size: 12
+  units_5: 6
+  batch_size: 64
   epochs: 50
 
 ========================================
@@ -424,8 +424,8 @@ Configuration 27:
   units_2: 512
   units_3: 256
   units_4: 128
-  units_5: 12
-  batch_size: 12
+  units_5: 6
+  batch_size: 64
   epochs: 50
 
 ========================================

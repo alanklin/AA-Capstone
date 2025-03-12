@@ -53,6 +53,8 @@ state_data_train = project_root / "Data" / "state_train.csv"
 state_data_test = project_root / "Data" / "state_test.csv"
 
 scalers_file = project_root / "Data" / "scalers.pickle"
+hyperparameters_file = project_root / "Model_Outputs" / "hyperparameter_configs.txt"
+nn_mape_results_file = project_root / "Model_Outputs" / "nn_model_results.pkl" 
 
 # Data manipulation
 import pandas as pd
