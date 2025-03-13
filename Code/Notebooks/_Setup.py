@@ -53,8 +53,18 @@ state_data_train = project_root / "Data" / "state_train.csv"
 state_data_test = project_root / "Data" / "state_test.csv"
 
 scalers_file = project_root / "Data" / "scalers.pickle"
+
+# Model outputs in Week 7
 hyperparameters_file = project_root / "Model_Outputs" / "hyperparameter_configs.txt"
 nn_mape_results_file = project_root / "Model_Outputs" / "nn_model_results.pkl" 
+nn_mape_results_file1 = project_root / "Model_Outputs" / "nn_model_results1.pkl" 
+nn_mape_results_file2 = project_root / "Model_Outputs" / "nn_model_results2.pkl" 
+
+lstm_mape_results_file = project_root / "Model_Outputs" / "lstm_model_results.pkl"
+lstm_mape_results_file1 = project_root / "Model_Outputs" / "lstm_model_results1.pkl"
+lstm_mape_results_file2 = project_root / "Model_Outputs" / "lstm_model_results2.pkl"
+lstm_mape_results_file3 = project_root / "Model_Outputs" / "lstm_model_results3.pkl"
+
 
 # Data manipulation
 import pandas as pd
@@ -85,4 +95,5 @@ from tensorflow import keras
 from tensorflow.keras import layers
 from tensorflow.keras.models import Sequential
 from tensorflow.keras.optimizers import Adam
-from tensorflow.keras.layers import Dense, Dropout, InputLayer
+from tensorflow.keras.layers import Dense, Dropout, InputLayer, LSTM
+from tensorflow.keras.callbacks import EarlyStopping
