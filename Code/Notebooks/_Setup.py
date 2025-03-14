@@ -58,12 +58,12 @@ scalers_file = project_root / "Data" / "scalers.pickle"
 hyperparameters_file = project_root / "Model_Outputs" / "hyperparameter_configs.txt"
 nn_mape_results_file = project_root / "Model_Outputs" / "nn_model_results.pkl" 
 nn_mape_results_file1 = project_root / "Model_Outputs" / "nn_model_results1.pkl" 
-nn_mape_results_file2 = project_root / "Model_Outputs" / "nn_model_results2.pkl" 
+nn_mape_results_file2 = project_root / "Model_Outputs" / "nn_model_results2.pkl" # should be best one, rest can be deleted once week7 is graded
 
 lstm_mape_results_file = project_root / "Model_Outputs" / "lstm_model_results.pkl"
 lstm_mape_results_file1 = project_root / "Model_Outputs" / "lstm_model_results1.pkl"
 lstm_mape_results_file2 = project_root / "Model_Outputs" / "lstm_model_results2.pkl"
-lstm_mape_results_file3 = project_root / "Model_Outputs" / "lstm_model_results3.pkl"
+lstm_mape_results_file3 = project_root / "Model_Outputs" / "lstm_model_results3.pkl" # should be best one, rest can be deleted once week7 is graded
 
 
 # Data manipulation
