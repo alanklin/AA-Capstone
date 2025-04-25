@@ -66,6 +66,9 @@ lstm_mape_results_file2 = project_root / "Model_Outputs" / "lstm_model_results2.
 lstm_mape_results_file3 = project_root / "Model_Outputs" / "lstm_model_results3.pkl" # should be best one, rest can be deleted once week7 is graded
 
 
+# Model outputs in week 12 for ARIMA final models
+arima_resutls_folder = project_root / "Model_Outputs" / "ARIMA_Week12"
+
 # Data manipulation
 import pandas as pd
 import matplotlib.pyplot as plt
