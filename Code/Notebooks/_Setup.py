@@ -67,7 +67,13 @@ lstm_mape_results_file3 = project_root / "Model_Outputs" / "lstm_model_results3.
 
 
 # Model outputs in week 12 for ARIMA final models
-arima_resutls_folder = project_root / "Model_Outputs" / "ARIMA_Week12"
+arima_results_folder = project_root / "Model_Outputs" / "ARIMA_Week12"
+
+# Model outputs in week 13, final models and predictions
+final_output_folder = project_root / "Model_Outputs" / "Final_Outputs"
+full_visualizations_folder = final_output_folder / "full_visualizations"
+zoomed_visualizations_folder = final_output_folder / "zoomed_visualizations"
+saved_models_folder = final_output_folder / "saved_models"
 
 # Data manipulation
 import pandas as pd
@@ -77,6 +83,8 @@ import numpy as np
 import sys
 import os
 import seaborn as sns
+import itertools
+import warnings
 
 # For mapping use:
 import geopandas as gpd
@@ -85,6 +93,7 @@ import geopandas.tools
 # Statistical methods
 from statsmodels.tsa.seasonal import seasonal_decompose
 import statsmodels.api as sm
+from statsmodels.tsa.arima.model import ARIMA
 
 # Feature Engineering
 from sklearn.preprocessing import OneHotEncoder
